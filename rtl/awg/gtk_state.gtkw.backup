@@ -1,0 +1,158 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Sat Nov 23 21:27:42 2024
+[*]
+[dumpfile] "/home/harry/homeAutomation/awg/rtl/awg/streaming_tb.vcd"
+[dumpfile_mtime] "Sat Nov 23 21:27:30 2024"
+[dumpfile_size] 137875
+[savefile] "/home/harry/homeAutomation/awg/rtl/awg/gtk_state.gtkw"
+[timestart] 0
+[size] 3072 1947
+[pos] 7123 41504
+*-15.177408 70700 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] streaming_tb.
+[treeopen] streaming_tb.uut.
+[treeopen] trigger_tb.
+[treeopen] trigger_tb.uut.
+[sst_width] 297
+[signals_width] 399
+[sst_expanded] 1
+[sst_vpaned_height] 791
+@200
+-
+-STREAMING_TEST
+@28
+[color] 5
+streaming_tb.fsm_tready
+[color] 5
+streaming_tb.fsm_tvalid
+@420
+streaming_tb.data_index
+@28
+streaming_tb.awg_valid
+streaming_tb.trigger
+@820
+[color] 3
+streaming_tb.tb_state[175:0]
+@200
+-top
+@28
+streaming_tb.uut.err_latched
+streaming_tb.clk100
+@22
+streaming_tb.uut.logic_out[15:0]
+@28
+streaming_tb.uut.awg_valid
+[color] 5
+streaming_tb.uut.fsm_tready
+[color] 5
+streaming_tb.uut.fsm_tvalid
+@200
+-TRIGGER
+@28
+streaming_tb.uut.trigger_inst.state_out[2:0]
+streaming_tb.uut.trigger_inst.trig_in
+streaming_tb.uut.trigger_inst.trig_out
+@200
+-FSM
+@28
+streaming_tb.uut.fsm_inst.in_tready
+streaming_tb.uut.fsm_inst.in_tvalid
+@820
+[color] 3
+streaming_tb.uut.fsm_inst.state_name[175:0]
+@28
+streaming_tb.uut.fsm_inst.awg_valid
+streaming_tb.uut.fsm_inst.cmd_bit
+streaming_tb.uut.fsm_inst.in_tdata[7:0]
+@24
+streaming_tb.uut.fsm_inst.bits_in_sample[7:0]
+streaming_tb.uut.fsm_inst.new_bits_in_sample[15:0]
+@28
+[color] 2
+streaming_tb.uut.fsm_inst.awg_partial[15:0]
+[color] 2
+streaming_tb.uut.fsm_inst.awg_out[15:0]
+streaming_tb.uut.fsm_inst.awg_valid
+streaming_tb.uut.fsm_inst.awg_ready
+@200
+-AWG_INST
+@28
+streaming_tb.uut.awg_inst.in_tready
+streaming_tb.uut.awg_inst.in_tvalid
+@820
+[color] 3
+streaming_tb.uut.awg_inst.awg_state_name[175:0]
+@28
+[color] 5
+streaming_tb.uut.awg_inst.in_tready
+[color] 5
+streaming_tb.uut.awg_inst.in_tvalid
+@22
+streaming_tb.uut.awg_inst.awg_out[15:0]
+@28
+streaming_tb.uut.awg_inst.awg_valid
+@22
+streaming_tb.uut.awg_inst.time_since_last_sample[15:0]
+@28
+streaming_tb.uut.awg_inst.clkout
+streaming_tb.uut.awg_inst.awg_valid
+@22
+streaming_tb.uut.awg_inst.time_since_last_sample[15:0]
+@200
+-
+-
+-
+-TRIGGERED_TEST
+@420
+trigger_tb.data_index
+@28
+trigger_tb.trigger
+@420
+trigger_tb.trigger_counter
+@200
+-TOP
+@28
+trigger_tb.uut.fsm_tready
+trigger_tb.uut.fsm_tvalid
+@22
+trigger_tb.awg_out[15:0]
+@28
+trigger_tb.uut.fsm_tdata[7:0]
+trigger_tb.uut.fsm_to_awg_ready
+trigger_tb.uut.fsm_to_awg_valid
+@200
+-FSM
+@28
+trigger_tb.uut.fsm_inst.cmd_bit
+@820
+[color] 3
+trigger_tb.uut.fsm_inst.state_name[175:0]
+@24
+trigger_tb.uut.fsm_inst.bits_in_sample[7:0]
+@22
+[color] 2
+trigger_tb.uut.fsm_inst.awg_partial[15:0]
+[color] 2
+trigger_tb.uut.fsm_inst.awg_out[15:0]
+@28
+trigger_tb.uut.fsm_inst.awg_valid
+@200
+-TRIGGER
+@820
+[color] 3
+trigger_tb.uut.trigger_inst.state_name[175:0]
+@28
+trigger_tb.uut.trigger_inst.trig_out
+@200
+-AWG_INST
+@28
+trigger_tb.uut.awg_inst.in_tvalid
+trigger_tb.uut.awg_inst.in_tready
+trigger_tb.uut.awg_inst.clkout
+@23
+trigger_tb.uut.awg_inst.time_since_last_sample[15:0]
+@28
+trigger_tb.uut.awg_inst.awg_valid
+[pattern_trace] 1
+[pattern_trace] 0

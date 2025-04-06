@@ -1,0 +1,360 @@
+
+LOCATE COMP "ftdi_data[7]" SITE "H2";    # DATA7
+LOCATE COMP "ftdi_data[6]" SITE "H3";    # DATA6
+LOCATE COMP "ftdi_data[5]" SITE "J1";    # DATA5
+LOCATE COMP "ftdi_data[4]" SITE "J2";    # DATA4
+LOCATE COMP "ftdi_data[3]" SITE "J3";    # DATA3
+LOCATE COMP "ftdi_data[2]" SITE "K1";    # DATA2
+LOCATE COMP "ftdi_data[1]" SITE "K2";    # DATA1
+LOCATE COMP "ftdi_data[0]" SITE "K3";    # DATA0
+
+LOCATE COMP "ftdi_rxf_n"  SITE "G3";    # RXF#    (ACBUS0)
+LOCATE COMP "ftdi_txe_n"  SITE "G2";    # TXE#    (ACBUS1)
+LOCATE COMP "ftdi_rd_n"   SITE "G1";    # RD#     (ACBUS2)
+LOCATE COMP "ftdi_wr_n"   SITE "F3";    # WR#     (ACBUS3)
+LOCATE COMP "ftdi_siwu"   SITE "F2";    # SIWU#   (ACBUS4)
+LOCATE COMP "ftdi_clk"    SITE "F1";    # CLKOUT  (ACBUS5)
+LOCATE COMP "ftdi_oe_n"   SITE "E3";    # OE#     (ACBUS6)
+LOCATE COMP "ftdi_pwrsav" SITE "E2";    # PWRSAV# (ACBUS7)
+LOCATE COMP "ftdi_acbus8" SITE "E1";    # PWRSAV# (ACBUS8)
+LOCATE COMP "ftdi_acbus9" SITE "F4";    # PWRSAV# (ACBUS9)
+
+# LED Bus Pin Assignments 
+LOCATE COMP "led[0]" SITE "B5";    # LED0
+LOCATE COMP "led[1]" SITE "C5";    # LED1
+LOCATE COMP "led[2]" SITE "A4";    # LED2
+LOCATE COMP "led[3]" SITE "B4";    # LED3
+LOCATE COMP "led[4]" SITE "C4";    # LED4
+LOCATE COMP "led[5]" SITE "A3";    # LED5
+LOCATE COMP "led[6]" SITE "B3";    # LED6
+LOCATE COMP "led[7]" SITE "A2";    # LED7
+
+# # 16-bit Data Bus Pin Definitions
+# LOCATE COMP "logic_out[0]" SITE "L1";    # DBG0
+# LOCATE COMP "logic_out[1]" SITE "L2";    # DBG1
+# LOCATE COMP "logic_out[2]" SITE "L3";    # DBG2
+# LOCATE COMP "logic_out[3]" SITE "M1";    # DBG3
+# LOCATE COMP "logic_out[4]" SITE "M2";    # DBG4
+# LOCATE COMP "logic_out[5]" SITE "M3";    # DBG5
+# LOCATE COMP "logic_out[6]" SITE "N1";    # DBG6
+# LOCATE COMP "logic_out[7]" SITE "N3";    # DBG7
+# LOCATE COMP "logic_out[8]" SITE "P1";    # DBG8
+# LOCATE COMP "logic_out[9]" SITE "P2";    # DBG9
+# LOCATE COMP "logic_out[10]" SITE "P3";   # DBG10
+# LOCATE COMP "logic_out[11]" SITE "R1";   # DBG11
+# LOCATE COMP "logic_out[12]" SITE "R2";   # DBG12
+# LOCATE COMP "logic_out[13]" SITE "R3";   # DBG13
+# LOCATE COMP "logic_out[14]" SITE "T2";   # DBG14
+# LOCATE COMP "logic_out[15]" SITE "T3";   # DBG15
+
+# # 16-bit Data Bus Pin Definitions
+
+LOCATE COMP "logic_out[0]" SITE "N3";    # DBG0
+LOCATE COMP "logic_out[1]" SITE "N1";    # DBG1
+LOCATE COMP "logic_out[2]" SITE "M3";    # DBG2
+LOCATE COMP "logic_out[3]" SITE "M2";    # DBG3
+LOCATE COMP "logic_out[4]" SITE "M1";    # DBG4
+LOCATE COMP "logic_out[5]" SITE "L3";    # DBG5
+LOCATE COMP "logic_out[6]" SITE "L2";    # DBG6
+LOCATE COMP "logic_out[7]" SITE "L1";    # DBG7
+
+
+LOCATE COMP "logic_out[8]" SITE "P1";    # DBG8
+LOCATE COMP "logic_out[9]" SITE "P2";    # DBG9
+LOCATE COMP "logic_out[10]" SITE "P3";   # DBG10
+LOCATE COMP "logic_out[11]" SITE "R1";   # DBG11
+LOCATE COMP "logic_out[12]" SITE "R2";   # DBG12
+LOCATE COMP "logic_out[13]" SITE "R3";   # DBG13
+LOCATE COMP "logic_out[14]" SITE "T2";   # DBG14
+LOCATE COMP "logic_out[15]" SITE "T3";   # DBG15
+
+# Bonus extra digital outputs that go to SMA connectors.
+LOCATE COMP "dout[0]" SITE "P4";
+LOCATE COMP "dout[1]" SITE "N4";
+
+LOCATE COMP "awg_ad9744[0]" SITE "K16";    # Given
+LOCATE COMP "awg_ad9744[1]" SITE "K15";    # Given
+LOCATE COMP "awg_ad9744[2]" SITE "K14";    # DAC2
+LOCATE COMP "awg_ad9744[3]" SITE "J16";    # DAC3
+LOCATE COMP "awg_ad9744[4]" SITE "J15";    # DAC4
+LOCATE COMP "awg_ad9744[5]" SITE "H15";    # DAC5
+LOCATE COMP "awg_ad9744[6]" SITE "G16";    # DAC6
+LOCATE COMP "awg_ad9744[7]" SITE "G15";    # DAC7
+LOCATE COMP "awg_ad9744[8]" SITE "G14";    # DAC8
+LOCATE COMP "awg_ad9744[9]" SITE "F16";    # DAC9
+LOCATE COMP "awg_ad9744[10]" SITE "F15";   # DAC10
+LOCATE COMP "awg_ad9744[11]" SITE "F14";   # DAC11
+LOCATE COMP "awg_ad9744[12]" SITE "E16";   # DAC12
+LOCATE COMP "awg_ad9744[13]" SITE "E15";   # DAC13
+
+
+LOCATE COMP "awg_ad9744_clk" SITE "E14";
+LOCATE COMP "awg_ad9744_mode" SITE "D16";
+LOCATE COMP "awg_ad9744_sleep" SITE "N16";
+
+LOCATE COMP "usr_btn" SITE "T6";
+IOBUF PORT "usr_btn"  PULLMODE=UP IO_TYPE=LVCMOS33;
+
+LOCATE COMP "trigger" SITE "R4";
+IOBUF PORT "trigger" PULLMODE=DOWN  IO_TYPE=LVCMOS33;
+
+LOCATE COMP "clk12" SITE "B1";
+IOBUF PORT "clk12" IO_TYPE=LVCMOS33;
+
+# IO Standards
+IOBUF PORT "ftdi_data[0]" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_data[1]" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_data[2]" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_data[3]" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_data[4]" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_data[5]" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_data[6]" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_data[7]" IO_TYPE=LVCMOS33;
+
+IOBUF PORT "ftdi_pwrsav" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_oe_n" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_clk" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_siwu" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_wr_n" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_rd_n" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_txe_n" IO_TYPE=LVCMOS33;
+IOBUF PORT "ftdi_rxf_n" IO_TYPE=LVCMOS33;
+
+# Clock constraints
+FREQUENCY PORT "ftdi_clk" 60.0 MHz;
+
+LOCATE COMP "clk16" SITE "B9";
+IOBUF PORT "clk16" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk16" 16 MHZ;
+
+################
+# COLORLIGHT FPGA BOARD
+#############
+
+
+
+#    ########### P3 ###########
+#    LOCATE COMP "P3_3"  SITE "D20";
+#    LOCATE COMP "P3_4"  SITE "B19";
+#    LOCATE COMP "P3_5"  SITE "A19";
+#    LOCATE COMP "P3_6"  SITE "A18";
+#    LOCATE COMP "P3_7"  SITE "C4";
+#    LOCATE COMP "P3_9"  SITE "C3";
+#    LOCATE COMP "P3_12" SITE "A3";
+#    LOCATE COMP "P3_13" SITE "B1";
+#    LOCATE COMP "P3_14" SITE "D2";
+#    LOCATE COMP "P3_15" SITE "E2";
+#    
+#    LOCATE COMP "P3_28" SITE "F20";
+#    LOCATE COMP "P3_27" SITE "B20";
+#    LOCATE COMP "P3_26" SITE "B18";
+#    LOCATE COMP "P3_25" SITE "C17";
+#    LOCATE COMP "P3_24" SITE "D3";
+#    LOCATE COMP "P3_22" SITE "B4";
+#    LOCATE COMP "P3_19" SITE "E3";
+#    LOCATE COMP "P3_18" SITE "C2";
+#    LOCATE COMP "P3_17" SITE "C1";
+#    LOCATE COMP "P3_16" SITE "D1";
+#    
+#    
+#    ########### P4 ###########
+#    LOCATE COMP "P4_3"  SITE "E1";
+#    LOCATE COMP "P4_4"  SITE "E4";
+#    LOCATE COMP "P4_5"  SITE "F3";
+#    LOCATE COMP "P4_6"  SITE "H3";
+#    LOCATE COMP "P4_7"  SITE "H5";
+#    LOCATE COMP "P4_9"  SITE "J5";
+#    LOCATE COMP "P4_12" SITE "A2";
+#    LOCATE COMP "P4_13" SITE "K4";
+#    LOCATE COMP "P4_14" SITE "B2";
+#    
+#    LOCATE COMP "P4_28" SITE "F2";
+#    LOCATE COMP "P4_27" SITE "F1";
+#    LOCATE COMP "P4_26" SITE "G3";
+#    LOCATE COMP "P4_25" SITE "H4";
+#    LOCATE COMP "P4_24" SITE "J4";
+#    LOCATE COMP "P4_22" SITE "K3";
+#    LOCATE COMP "P4_19" SITE "K5";
+#    LOCATE COMP "P4_18" SITE "B3";
+#    LOCATE COMP "P4_17" SITE "E19";
+#    
+#    ########### P3 ###########
+#    IOBUF PORT "P3_3"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_4"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_5"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_6"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_7"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_9"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_12" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_13" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_14" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_15" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_28" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_27" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_26" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_25" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_24" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_22" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_19" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_18" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_17" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P3_16" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    
+#    ########### P4 ###########
+#    IOBUF PORT "P4_3"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_4"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_5"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_6"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_7"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_9"  PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_12" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_13" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_14" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_28" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_27" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_26" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_25" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_24" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_22" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_19" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_18" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    IOBUF PORT "P4_17" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
+#    
+#    # FTDI Data Bus on P6 left hand side 
+#    LOCATE COMP "ftdi_data[7]" SITE "J16";
+#    LOCATE COMP "ftdi_data[6]" SITE "L5";
+#    LOCATE COMP "ftdi_data[5]" SITE "M4";
+#    LOCATE COMP "ftdi_data[4]" SITE "R3";
+#    LOCATE COMP "ftdi_data[3]" SITE "M3";
+#    LOCATE COMP "ftdi_data[2]" SITE "N3";
+#    LOCATE COMP "ftdi_data[1]" SITE "M1";
+#    LOCATE COMP "ftdi_data[0]" SITE "W1";
+#    
+#    # FTDI Control Lines on P6 right hand side (reversed order)
+#    LOCATE COMP "ftdi_rxf_n"  SITE "J18";  # pin C0 on FT232
+#    LOCATE COMP "ftdi_txe_n"  SITE "P16";
+#    LOCATE COMP "ftdi_rd_n"   SITE "L4";
+#    LOCATE COMP "ftdi_wr_n"   SITE "N4";
+#    LOCATE COMP "ftdi_siwu"   SITE "T3";
+#    LOCATE COMP "ftdi_clk"    SITE "T2";
+#    LOCATE COMP "ftdi_oe_n"   SITE "N2";
+#    LOCATE COMP "ftdi_pwrsav" SITE "V1";
+#    
+#    
+#    
+#    # 16-bit Data Bus Pin Definitions
+#    LOCATE COMP "logic_out16[4]" SITE "E1";
+#    LOCATE COMP "logic_out16[5]" SITE "E4";
+#    LOCATE COMP "logic_out16[6]" SITE "F3";
+#    LOCATE COMP "logic_out16[7]" SITE "H3";
+#    LOCATE COMP "logic_out16[8]" SITE "A2";
+#    LOCATE COMP "logic_out16[9]" SITE "K4";
+#    LOCATE COMP "logic_out16[10]" SITE "B2";
+#    
+#    LOCATE COMP "logic_out16[15]" SITE "J5";
+#    LOCATE COMP "logic_out16[14]" SITE "E19";
+#    LOCATE COMP "logic_out16[11]" SITE "K3";
+#    LOCATE COMP "logic_out16[12]" SITE "K5";
+#    LOCATE COMP "logic_out16[13]" SITE "B3";
+#    
+#    LOCATE COMP "logic_out16[3]" SITE "H4";
+#    LOCATE COMP "logic_out16[2]" SITE "G3";
+#    LOCATE COMP "logic_out16[1]" SITE "F1";
+#    LOCATE COMP "logic_out16[0]" SITE "F2";
+#    
+#    LOCATE COMP "awg_r2r[0]" SITE "F20";
+#    LOCATE COMP "awg_r2r[1]" SITE "B20";
+#    LOCATE COMP "awg_r2r[2]" SITE "B18";
+#    LOCATE COMP "awg_r2r[3]" SITE "C17";
+#    LOCATE COMP "awg_r2r[4]" SITE "D3";
+#    LOCATE COMP "awg_r2r[5]" SITE "B4";
+#    LOCATE COMP "awg_r2r[6]" SITE "E3";
+#    LOCATE COMP "awg_r2r[7]" SITE "C2";
+#    
+#    LOCATE COMP "awg_ad9744[0]" SITE "K18";
+#    LOCATE COMP "awg_ad9744[1]" SITE "U16";
+#    LOCATE COMP "awg_ad9744[2]" SITE "T18";
+#    LOCATE COMP "awg_ad9744[3]" SITE "C18";
+#    LOCATE COMP "awg_ad9744[4]" SITE "R17";
+#    LOCATE COMP "awg_ad9744[5]" SITE "R18";
+#    LOCATE COMP "awg_ad9744[6]" SITE "M17";
+#    LOCATE COMP "awg_ad9744[7]" SITE "P17";
+#    LOCATE COMP "awg_ad9744[8]" SITE "U18";
+#    LOCATE COMP "awg_ad9744[9]" SITE "T17";
+#    LOCATE COMP "awg_ad9744[10]" SITE "N17";
+#    LOCATE COMP "awg_ad9744[11]" SITE "N18";
+#    LOCATE COMP "awg_ad9744[12]" SITE "M18";
+#    LOCATE COMP "awg_ad9744[13]" SITE "L20";
+#    
+#    LOCATE COMP "awg_clk" SITE "U17";
+#    
+#    LOCATE COMP "usr_btn" SITE "D20";
+#    IOBUF PORT "usr_btn"  PULLMODE=UP IO_TYPE=LVCMOS33;
+#    
+#    LOCATE COMP "trigger" SITE "E5";
+#    IOBUF PORT "trigger" PULLMODE=DOWN  IO_TYPE=LVCMOS33;
+#    
+#    LOCATE COMP "err_latched" SITE "K20";
+#    LOCATE COMP "triggered" SITE "J20";
+#    
+#    # logic analyzer inputs
+#    
+#    
+#    LOCATE COMP "logic_x[7]" SITE "K18";
+#    LOCATE COMP "logic_x[6]" SITE "T18";
+#    LOCATE COMP "logic_x[5]" SITE "R17";
+#    LOCATE COMP "logic_x[4]" SITE "M17";
+#    LOCATE COMP "logic_x[3]" SITE "N18";
+#    LOCATE COMP "logic_x[2]" SITE "L20";
+#    LOCATE COMP "logic_x[1]" SITE "K20";
+#    LOCATE COMP "logic_x[0]" SITE "G20";
+#    
+#    IOBUF PORT "logic_x[7]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "logic_x[6]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "logic_x[5]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "logic_x[4]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "logic_x[3]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "logic_x[2]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "logic_x[1]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "logic_x[0]" IO_TYPE=LVCMOS33;
+#    
+#    
+#    # IO Standards
+#    IOBUF PORT "ftdi_data[0]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_data[1]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_data[2]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_data[3]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_data[4]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_data[5]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_data[6]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_data[7]" IO_TYPE=LVCMOS33;
+#    
+#    IOBUF PORT "ftdi_pwrsav" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_oe_n" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_clk" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_siwu" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_wr_n" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_rd_n" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_txe_n" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "ftdi_rxf_n" IO_TYPE=LVCMOS33;
+#    
+#    IOBUF PORT "awg[0]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "awg[1]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "awg[2]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "awg[3]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "awg[4]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "awg[5]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "awg[6]" IO_TYPE=LVCMOS33;
+#    IOBUF PORT "awg[7]" IO_TYPE=LVCMOS33;
+#    
+#    # Clock constraints
+#    FREQUENCY PORT "ftdi_clk" 60.0 MHz;
+#    
+#    LOCATE COMP "clk25" SITE "P3";
+#    IOBUF PORT "clk25" IO_TYPE=LVCMOS33;
+#    FREQUENCY PORT "clk25" 25 MHZ;
+#    
+#    LOCATE COMP "led_o" SITE "U16";
+#    
+#    IOBUF PORT "led_o" IO_TYPE=LVCMOS25;
+

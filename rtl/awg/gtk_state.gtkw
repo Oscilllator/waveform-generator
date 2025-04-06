@@ -1,0 +1,176 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Sun Mar 30 04:06:02 2025
+[*]
+[dumpfile] "/home/harry/homeAutomation/awg/rtl/awg/streaming_tb.vcd"
+[dumpfile_mtime] "Sun Mar 30 04:05:07 2025"
+[dumpfile_size] 205548
+[savefile] "/home/harry/homeAutomation/awg/rtl/awg/gtk_state.gtkw"
+[timestart] 8493000
+[size] 3770 2086
+[pos] 5889 42828
+*-18.649897 10859000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] sequential_tb.
+[treeopen] sequential_tb.stream_test.
+[treeopen] sequential_tb.stream_test.uut.
+[treeopen] sequential_tb.trig_test.
+[treeopen] sequential_tb.trig_test.uut.
+[sst_width] 297
+[signals_width] 399
+[sst_expanded] 1
+[sst_vpaned_height] 809
+@200
+-TOP
+-FSM
+-TRIGGER
+-AWG_INST
+-STREAMING_TEST
+@28
+[color] 5
+sequential_tb.stream_test.fsm_tready
+[color] 5
+sequential_tb.stream_test.fsm_tvalid
+@420
+sequential_tb.stream_test.data_index
+@28
+sequential_tb.stream_test.awg_valid
+sequential_tb.stream_test.trigger
+@820
+[color] 3
+sequential_tb.stream_test.tb_state[175:0]
+@200
+-top
+@28
+sequential_tb.stream_test.uut.err_latched
+sequential_tb.stream_test.clk100
+@22
+sequential_tb.stream_test.uut.logic_out[15:0]
+@28
+sequential_tb.stream_test.uut.awg_valid
+[color] 5
+sequential_tb.stream_test.uut.fsm_tready
+[color] 5
+sequential_tb.stream_test.uut.fsm_tvalid
+@200
+-TRIGGER
+@28
+sequential_tb.stream_test.uut.trigger_inst.state_out[2:0]
+sequential_tb.stream_test.uut.trigger_inst.trig_in
+sequential_tb.stream_test.uut.trigger_inst.trig_out
+@200
+-FSM
+@28
+sequential_tb.stream_test.uut.fsm_inst.err_latched
+sequential_tb.stream_test.uut.fsm_inst.in_tready
+sequential_tb.stream_test.uut.fsm_inst.in_tvalid
+@820
+[color] 3
+sequential_tb.stream_test.uut.fsm_inst.state_name[175:0]
+@28
+sequential_tb.stream_test.uut.fsm_inst.cmd_bit
+sequential_tb.stream_test.uut.fsm_inst.in_tdata[7:0]
+@24
+sequential_tb.stream_test.uut.fsm_inst.bits_in_sample[7:0]
+sequential_tb.stream_test.uut.fsm_inst.new_bits_in_sample[15:0]
+@28
+[color] 2
+sequential_tb.stream_test.uut.fsm_inst.awg_partial[15:0]
+[color] 2
+sequential_tb.stream_test.uut.fsm_inst.awg_out[15:0]
+sequential_tb.stream_test.uut.fsm_inst.awg_valid
+sequential_tb.stream_test.uut.fsm_inst.awg_ready
+@200
+-AWG_INST
+@28
+sequential_tb.stream_test.uut.awg_inst.in_tready
+sequential_tb.stream_test.uut.awg_inst.in_tvalid
+@820
+[color] 3
+sequential_tb.stream_test.uut.awg_inst.awg_state_name[175:0]
+@28
+[color] 5
+sequential_tb.stream_test.uut.awg_inst.in_tready
+[color] 5
+sequential_tb.stream_test.uut.awg_inst.in_tvalid
+@22
+[color] 2
+sequential_tb.stream_test.uut.awg_inst.awg_out[15:0]
+@28
+sequential_tb.stream_test.uut.awg_inst.awg_valid
+@22
+sequential_tb.stream_test.uut.awg_inst.time_since_last_sample[15:0]
+@28
+sequential_tb.stream_test.uut.awg_inst.clkout
+sequential_tb.stream_test.uut.awg_inst.awg_valid
+@22
+sequential_tb.stream_test.uut.awg_inst.time_since_last_sample[15:0]
+@200
+-
+-
+-
+-TRIGGERED_TEST
+@420
+sequential_tb.trig_test.data_index
+@28
+sequential_tb.trig_test.trigger
+@420
+sequential_tb.trig_test.trigger_counter
+@200
+-TOP
+@28
+sequential_tb.trig_test.uut.err_latched
+sequential_tb.trig_test.uut.fsm_tready
+sequential_tb.trig_test.uut.fsm_tvalid
+@22
+sequential_tb.trig_test.awg_out[15:0]
+@28
+sequential_tb.trig_test.uut.fsm_tdata[7:0]
+sequential_tb.trig_test.uut.fsm_to_awg_ready
+sequential_tb.trig_test.uut.fsm_to_awg_valid
+@200
+-FSM
+@28
+sequential_tb.trig_test.uut.fsm_inst.cmd_bit
+@820
+[color] 3
+sequential_tb.trig_test.uut.fsm_inst.state_name[175:0]
+@24
+sequential_tb.trig_test.uut.fsm_inst.bits_in_sample[7:0]
+@22
+[color] 2
+sequential_tb.trig_test.uut.fsm_inst.awg_partial[15:0]
+[color] 2
+sequential_tb.trig_test.uut.fsm_inst.awg_out[15:0]
+@28
+sequential_tb.trig_test.uut.fsm_inst.awg_valid
+sequential_tb.trig_test.uut.fsm_inst.awg_ready
+@200
+-TRIGGER
+@820
+[color] 3
+sequential_tb.trig_test.uut.trigger_inst.state_name[175:0]
+@28
+sequential_tb.trig_test.uut.trigger_inst.trig_out
+sequential_tb.trig_test.uut.trigger_inst.trig_in_del
+sequential_tb.trig_test.uut.trigger_inst.trig_edge
+@200
+-AWG_INST
+@22
+sequential_tb.trig_test.uut.awg_inst.in_tdata[15:0]
+sequential_tb.trig_test.uut.awg_inst.awg_out[15:0]
+@28
+sequential_tb.trig_test.uut.awg_inst.in_tvalid
+sequential_tb.trig_test.uut.awg_inst.in_tready
+sequential_tb.trig_test.uut.awg_inst.clkout
+@22
+sequential_tb.trig_test.uut.awg_inst.time_since_last_sample[15:0]
+@28
+sequential_tb.trig_test.uut.awg_inst.awg_valid
+@420
+[color] 2
+sequential_tb.trig_test.num_triggers
+@421
+[color] 2
+sequential_tb.trig_test.total_samples
+[pattern_trace] 1
+[pattern_trace] 0
