@@ -22,7 +22,8 @@ awg.send_volts(samples, digital=[d0, d1])
 ```
 
 Which then would look like this:
-![image](https://raw.githubusercontent.com/Oscilllator/waveform-generator/docs/2025-04-05_16-04.png)
+![image](https://raw.githubusercontent.com/Oscilllator/waveform-generator/refs/heads/main/docs/2025-04-05_16-04.png)
+
 This is useful for triggering your scope or other instruments.
 
 
@@ -39,7 +40,7 @@ The device also has a 16 bit digital output bus for debugging the fpga, and 8 LE
 
 It looks like this:
 
-![image](https://raw.githubusercontent.com/Oscilllator/waveform-generator/docs/2025-04-05_18-04.png)
+![image](https://raw.githubusercontent.com/Oscilllator/waveform-generator/refs/heads/main/docs/2025-04-05_18-04.png)
 
 
 ## Repository contents
