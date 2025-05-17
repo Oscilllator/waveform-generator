@@ -25,6 +25,9 @@ class awg:
         self.vmin = -10
         self.vmax = 10
         self.sample_rate = 10e6
+        print(dir(ftd2xx))
+        # Set VID/PID before opening
+        ftd2xx.setVIDPID(0x1337, 0x0001)
         self.usb = ftd2xx.open(0)
         self.usb.setFlowControl(0, 0, 0)
         self.usb.purge(ftd2xx.defines.PURGE_TX | ftd2xx.defines.PURGE_RX)

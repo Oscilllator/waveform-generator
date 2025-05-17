@@ -70,7 +70,7 @@ TESTBENCH_DEFINE = -DTESTBENCH
 sim: top_sans_ftdi_tb.vcd
 top_sans_ftdi_tb.vcd: $(SIM_SRC)
 # is this python bad practice? Yes. oh well.
-	python ../../python/gen_test_data.py
+	python ../../libawg/gen_test_data.py
 	iverilog -Wall -o top_sans_ftdi_tb.vvp $(TESTBENCH_DEFINE) $(SIM_SRC) test_data.gen.v
 	vvp top_sans_ftdi_tb.vvp
 
