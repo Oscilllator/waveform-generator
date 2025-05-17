@@ -45,11 +45,16 @@ It looks like this:
 
 ## Setup
 ### From a new computer
+#### Udev rules
 The USB chip is a FT232, but I have programmed it to have a custom Vid and Pid, so that the linux kernel doesn't grab it.
 
 This script sets up the udev rules so the device can be opened without root:
 
 ```./ft/setup.sh```
+#### Python library
+I install it like this from the root directory of the repository:
+```pip install -e .```
+That way the library is loaded from the repository on startup rather than being copied to an install directory. Ask your favourite AI what's right for you.
 
 ### From a bare PCB
 The EEPROM of the FT2332 needs to be programmed so that it will output in synchronous FIFO mode, and so that the default vendor ID and product ID is changed, preventing the linux kernel from recognising it.
