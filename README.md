@@ -53,7 +53,9 @@ This script sets up the udev rules so the device can be opened without root:
 ```./ft/setup.sh```
 #### Python library
 I install it like this from the root directory of the repository:
+
 ```pip install -e .```
+
 That way the library is loaded from the repository on startup rather than being copied to an install directory. Ask your favourite AI what's right for you.
 
 ### From a bare PCB
