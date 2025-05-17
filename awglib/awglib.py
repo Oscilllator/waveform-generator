@@ -72,7 +72,17 @@ class awg:
             self.stop_event = threading.Event()
             def _worker():
                 while not self.stop_event.is_set():
-                    sent = self.usb.write(bytes_to_send)
+                    print(f"writing {len(bytes_to_send)} bytes")
+                    max_sz = 2**23
+                    intervals = 1 + len(bytes_to_send) // max_sz
+                    sent = 0
+                    for i in range(intervals):
+                        bytes_to_send_chunk = bytes_to_send[i * max_sz:min((i + 1) * max_sz, len(bytes_to_send))]
+                        if len(bytes_to_send_chunk) == 0:
+                            break
+                        # print(f"writing {len(bytes_to_send_chunk)} bytes")
+                        sent += self.usb.write(bytes_to_send_chunk)
+                    # sent = self.usb.write(bytes_to_send)
                     assert sent == len(bytes_to_send), print(f"{sent=} !- {bytes_to_send=}")
             self.cont_thread = threading.Thread(target=_worker)
             self.cont_thread.daemon = True
@@ -92,7 +102,9 @@ class awg:
 
 
 if __name__ == "__main__":
+    # I run this as: python -m awglib.awgli
     import matplotlib.pyplot as plt
+    import time
 
     # Mock USB class that does nothing
     class MockUSB:
@@ -103,26 +115,24 @@ if __name__ == "__main__":
     a = awg()
     a.usb = MockUSB()
 
-    # Test increasing waveform sizes from 10 samples to 1e6 samples
     sizes = [10, 100, 1_000, 10_000, 100_000, 1_000_000, 10_000_000, 20_000_000]
     samples_per_sec = []
     
     for s in sizes:
-        # Create a random signal of size s in the range [vmin, vmax]
         signal = np.random.uniform(a.vmin, a.vmax, s)
 
         start_time = time.time()
-        a.send(signal)
+        a.send_volts(signal)
         end_time = time.time()
 
         duration = end_time - start_time
         samples_per_sec.append(s / duration)
-        print(f"Sent {s} samples in {duration:.6f} seconds ({1e-6*s/duration:.1f} samples/s)")
+        print(f"Sent {s} samples in {duration:.6f} seconds ({1e-6*s/duration:.1f} Msamples/s)")
 
-    # plt.figure(figsize=(10,6))
-    # plt.semilogx(sizes, samples_per_sec, 'bo-')
-    # plt.grid(True)
-    # plt.xlabel('Number of Samples')
-    # plt.ylabel('Samples per Second')
-    # plt.title('AWG Performance: Samples/s vs Signal Size')
-    # plt.show()
+    plt.figure(figsize=(10,6))
+    plt.semilogx(sizes, samples_per_sec, 'bo-')
+    plt.grid(True)
+    plt.xlabel('Number of Samples')
+    plt.ylabel('Samples per Second')
+    plt.title('AWG Performance: Samples/s vs Signal Size')
+    plt.show()
