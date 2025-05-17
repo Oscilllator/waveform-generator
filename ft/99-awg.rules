@@ -1,0 +1,4 @@
+SUBSYSTEM=="usb", ATTR{idVendor}=="1337", ATTR{idProduct}=="0001", \
+  MODE="0664", GROUP="plugdev"
+EOF
+
