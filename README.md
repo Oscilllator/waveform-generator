@@ -49,6 +49,7 @@ It looks like this:
 This example is `examples/scrolling_text.py` and demonstrates some of the benefits of having a streaming setup - there is a lot of memory on your main computer as compared to any reasonable waveform generator.
 
 This whole gif is one single waveform of about ~500MB over the wire. Several passes are made over the text, one for each letter section. Then when the whole text has been emitted the waveform is then re-emitted with the embedded digital trigger pulse sent with a slightly different time delay. This is easily done by simply concatenating the waveform to itself many times, attaching a shifted version of the trigger array each time. This wastes a lot of memory, and saves a lot of time.
+
 ![demo](docs/text_scroll.webp)
 
 ## Setup
