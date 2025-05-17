@@ -53657,7 +53657,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53686,7 +53686,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53715,7 +53715,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53744,7 +53744,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53773,7 +53773,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53802,7 +53802,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53831,7 +53831,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53860,7 +53860,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53889,7 +53889,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53918,7 +53918,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53947,7 +53947,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -53976,7 +53976,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -54005,7 +54005,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -54034,7 +54034,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -54063,7 +54063,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -54092,7 +54092,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -54122,7 +54122,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:83.170-83.229"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:83.170-83.229"
           },
           "port_directions": {
             "CE": "input",
@@ -54407,7 +54407,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -54434,7 +54434,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54461,7 +54461,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54488,7 +54488,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54515,7 +54515,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54542,7 +54542,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54569,7 +54569,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54596,7 +54596,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54623,7 +54623,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54650,7 +54650,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54677,7 +54677,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54704,7 +54704,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54731,7 +54731,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54758,7 +54758,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54785,7 +54785,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54812,7 +54812,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54839,7 +54839,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:93.5-125.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
+            "src": "awg_output.v:31.5-63.8|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:14.98-14.152"
           },
           "port_directions": {
             "CLK": "input",
@@ -54990,7 +54990,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55082,7 +55082,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55174,7 +55174,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55266,7 +55266,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55358,7 +55358,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55400,7 +55400,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55517,7 +55517,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55584,7 +55584,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55701,7 +55701,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55743,7 +55743,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55785,7 +55785,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55827,7 +55827,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55869,7 +55869,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55911,7 +55911,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -55953,7 +55953,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -70287,7 +70287,7 @@
           "bits": [ 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 44, 45 ],
           "attributes": {
             "hdlname": "u_top_sans_ftdi awg_inst awg_out",
-            "src": "awg_output.v:80.36-80.43"
+            "src": "awg_output.v:18.36-18.43"
           }
         },
         "u_top_sans_ftdi.awg_inst.awg_out_TRELLIS_FF_Q_CE": {
@@ -70303,7 +70303,7 @@
           "bits": [ 40 ],
           "attributes": {
             "hdlname": "u_top_sans_ftdi awg_inst clk100",
-            "src": "awg_output.v:70.25-70.31"
+            "src": "awg_output.v:8.25-8.31"
           }
         },
         "u_top_sans_ftdi.awg_inst.clkout": {
@@ -70311,7 +70311,7 @@
           "bits": [ 34 ],
           "attributes": {
             "hdlname": "u_top_sans_ftdi awg_inst clkout",
-            "src": "awg_output.v:79.16-79.22"
+            "src": "awg_output.v:17.16-17.22"
           }
         },
         "u_top_sans_ftdi.awg_inst.clkout_TRELLIS_FF_Q_CE": {
@@ -70349,7 +70349,7 @@
           "bits": [ 1763, 1762, 1761, 1760, 1759, 1758, 1771, 1770, 1769, 1768, 1767, 1766, 1765, 1764, 1757, 1756 ],
           "attributes": {
             "hdlname": "u_top_sans_ftdi awg_inst in_tdata",
-            "src": "awg_output.v:74.37-74.45"
+            "src": "awg_output.v:12.37-12.45"
           }
         },
         "u_top_sans_ftdi.awg_inst.in_tready": {
@@ -70357,7 +70357,7 @@
           "bits": [ 1794 ],
           "attributes": {
             "hdlname": "u_top_sans_ftdi awg_inst in_tready",
-            "src": "awg_output.v:73.25-73.34"
+            "src": "awg_output.v:11.25-11.34"
           }
         },
         "u_top_sans_ftdi.awg_inst.in_tready_LUT4_C_Z": {
@@ -70381,7 +70381,7 @@
           "bits": [ 1795 ],
           "attributes": {
             "hdlname": "u_top_sans_ftdi awg_inst in_tvalid",
-            "src": "awg_output.v:72.25-72.34"
+            "src": "awg_output.v:10.25-10.34"
           }
         },
         "u_top_sans_ftdi.awg_inst.time_since_last_sample": {
@@ -70389,7 +70389,7 @@
           "bits": [ 1776, 1775, 1793, 1774, 1784, 1783, 1782, 1781, 1792, 1791, 1790, 1789, 1788, 1787, 1786, 1785 ],
           "attributes": {
             "hdlname": "u_top_sans_ftdi awg_inst time_since_last_sample",
-            "src": "awg_output.v:88.16-88.38"
+            "src": "awg_output.v:26.16-26.38"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger": {
@@ -70397,7 +70397,7 @@
           "bits": [ 36 ],
           "attributes": {
             "hdlname": "u_top_sans_ftdi awg_inst trigger",
-            "src": "awg_output.v:76.16-76.23"
+            "src": "awg_output.v:14.16-14.23"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z": {
@@ -70429,7 +70429,7 @@
           "bits": [ 1825 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_B_1_D": {
@@ -70461,7 +70461,7 @@
           "bits": [ 1829 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_B_4_D": {
@@ -70485,7 +70485,7 @@
           "bits": [ 1828 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_B_6_D": {
@@ -70509,7 +70509,7 @@
           "bits": [ 1819 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_B_8_D": {
@@ -70533,7 +70533,7 @@
           "bits": [ 1835 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_B_D": {
@@ -70549,7 +70549,7 @@
           "bits": [ 1824 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_B_Z": {
@@ -70579,7 +70579,7 @@
           "bits": [ 1841 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_B_Z_LUT4_Z_2_B_CCU2C_S1_S0": {
@@ -70602,7 +70602,7 @@
           "bits": [ 1832 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:105.21-105.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:43.21-43.54|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_Z_C": {
@@ -70618,7 +70618,7 @@
           "bits": [ 1844 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_Z_D_CCU2C_COUT_CIN": {
@@ -70626,7 +70626,7 @@
           "bits": [ 1845 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_Z_D_CCU2C_COUT_CIN_CCU2C_COUT_CIN": {
@@ -70634,7 +70634,7 @@
           "bits": [ 1848 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_Z_D_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN": {
@@ -70642,7 +70642,7 @@
           "bits": [ 1851 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_Z_D_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN": {
@@ -70650,7 +70650,7 @@
           "bits": [ 1854 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_Z_D_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN": {
@@ -70658,7 +70658,7 @@
           "bits": [ 1857 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_Z_D_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN": {
@@ -70666,7 +70666,7 @@
           "bits": [ 1860 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "awg_output.v:96.13-96.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "awg_output.v:34.13-34.51|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/arith_map.v:74.7-80.4|/home/harry/oss-cad-suite/lib/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "u_top_sans_ftdi.awg_inst.trigger_LUT4_C_Z_LUT4_Z_D_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0": {

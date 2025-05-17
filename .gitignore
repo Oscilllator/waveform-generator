@@ -1,3 +1,4 @@
+rtl/awg/*.json
 awg/**/*.json
 awg/*/*.json
 awg/*/*.png
