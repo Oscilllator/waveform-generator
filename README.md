@@ -43,6 +43,19 @@ It looks like this:
 ![image](https://raw.githubusercontent.com/Oscilllator/waveform-generator/refs/heads/main/docs/2025-04-05_18-04.png)
 
 
+## Setup
+### From a new computer
+The USB chip is a FT232, but I have programmed it to have a custom Vid and Pid, so that the linux kernel doesn't grab it.
+
+This script sets up the udev rules so the device can be opened without root:
+
+```./ft/setup.sh```
+
+### From a bare PCB
+The EEPROM of the FT2332 needs to be programmed so that it will output in synchronous FIFO mode, and so that the default vendor ID and product ID is changed, preventing the linux kernel from recognising it.
+
+```./program_eeprom.sh```
+
 ## Repository contents
 This repository contains the kicad files, RTL, and API to operate a waveform generator.
 
