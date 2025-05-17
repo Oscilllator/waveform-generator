@@ -86,3 +86,5 @@ The waveform generator is interfaces with in python, though I may [port it to C]
 
 This device was designed as a series of sub-boards. It started as a [Colorlight DAC](https://harrydb.com/20240902-A-good-waveform-generator) dev board and the [amplifier stage](https://harrydb.com/20250103-awg-buffer-bringup). These were then merged into a [Single PCB](https://harrydb.com/20250403-AWG-2-bringup). There are [various other notes](https://harrydb.com/#waveform-generator) on my lab notes page that detail other parts of the design process.
 
+<video src="demo.mp4" width="720" autoplay loop muted playsinline></video>
+
