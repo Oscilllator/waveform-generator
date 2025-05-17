@@ -6,8 +6,8 @@ I created this because I don't like the software interface to any other waveform
 You use it like this:
 ```python
 import numpy as np
-import libawg
-awg = libawg.awg()
+import awglib
+awg = awglib.awg()
 samples = np.sin(np.linspace(0, 2 * np.pi, 1000))
 awg.send_volts(samples)
 ```
