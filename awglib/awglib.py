@@ -2,8 +2,8 @@ import os, sys, threading
 import numpy as np
 from ctypes import CDLL
 
-import wire_format
-import verilog_consts as vc
+from . import wire_format
+from . import verilog_consts as vc
 
 def setup_environment():
     lib_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +25,6 @@ class awg:
         self.vmin = -10
         self.vmax = 10
         self.sample_rate = 10e6
-        print(dir(ftd2xx))
         # Set VID/PID before opening
         ftd2xx.setVIDPID(0x1337, 0x0001)
         self.usb = ftd2xx.open(0)
@@ -38,7 +37,7 @@ class awg:
 
     def send_volts(self,
                 signal: np.ndarray,
-                digital: list[np.ndarray],
+                digital: list[np.ndarray] = [],
                 trigger_mode: int = vc.TRIGGER_MODE_NONE,
                 continuous: bool = False):
         """
@@ -52,6 +51,7 @@ class awg:
         signal = (signal - self.vmin) / (self.vmax - self.vmin) * (2**vc.DAC_BIT_WIDTH - 1)
         signal = signal.astype(np.uint8 if vc.BIT_WIDTH == 8 else np.uint16)
 
+        assert len(digital) <= 2
         for i, d in enumerate(digital):
             assert set(np.unique(digital)).issubset(set([0, 1]))
             signal |= (d.astype(signal.dtype) << (vc.DAC_BIT_WIDTH + i))
@@ -59,8 +59,8 @@ class awg:
 
     def send_bits(self, signal: np.ndarray, trigger_mode: int, continuous: bool):
         """
-        Send a waveform to the awg.
-        Top two bits of signal are the auxillary digital outputs, bottom 14 bits are the real signal.
+        Send a waveform to the awg in fpga-native 16 bit words.
+        Top two bits of each word are the auxillary digital outputs, bottom 14 bits are the real signal.
         To be explicit, the format is:
         msb                                               lsb
         [d1 d0 a13 a12 a11 a10 a9 a8 a7 a6 a5 a4 a3 a2 a1 a0]

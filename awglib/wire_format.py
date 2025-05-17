@@ -1,6 +1,6 @@
 
 import numpy as np
-import verilog_consts as vc
+from . import verilog_consts as vc
 
 def to_bin(data: np.ndarray):
     if data.dtype == np.uint8:

@@ -1,15 +1,7 @@
 `ifndef DEFINES
 `define DEFINES
 
-// If the MSB is set, then the byte is a command byte.
-
-// `define BIT_WIDTH 8
-// `define CMD_BIT 7
-// `define CMD_MASK 8'b1000_0000
-
-// `define BIT_WIDTH 16
-// `define CMD_BIT 15
-// `define CMD_MASK 16'b1000_0000_0000_0000
+`define SAMPLE_RATE 10_000_000
 
 // Bit width of the AD9744
 `define DAC_BIT_WIDTH 14
@@ -19,7 +11,7 @@
 `define CMD_BIT 7
 `define CMD_MASK 16'b1000_0000
 
-// jhen the command TRIGGER_MODE_EDGE is set, the device will be idle (TRIG_IDLE)
+// When the command TRIGGER_MODE_EDGE is set, the device will be idle (TRIG_IDLE)
 // and then begin transmitting data
 // on the rising edge of the trigger signal. It will then continue transmitting until a 
 // RESET_EDGE command is received, whereapon it will return to the 

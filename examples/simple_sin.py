@@ -1,8 +1,8 @@
 import time
 import numpy as np
 
-from ..awglib import verilog_consts as vc
-from ..awglib import awglib
+import awglib
+from awglib import verilog_consts as vc
 
 awg = awglib.awg()
 theta = np.linspace(0, 2 * np.pi, 1000)
